@@ -1,0 +1,24 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* elements */
+body {
+  background-color: #2a2b2c;
+}
+
+h1 {
+  font-family: 'Open+Sans';font-size: 22px;
+}
+
+/* classes */
+.centre {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+
+/*   
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+  
+*/
