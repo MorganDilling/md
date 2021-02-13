@@ -3,23 +3,24 @@
 
 /* elements */
 body {
-  background-color: #2f3134;
+  background-color: #17181a;
 }
 
 h1 {
-  font-family: 'Open+Sans';font-size: 22px;
-  color: #f5fbff;
+  font-family: 'Open Sans';font-size: 30px;
+  color: #e8ecee;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Open Sans';font-size: 20px;
+  color: #e8ecee;
+  font-weight: 300;
 }
 
 /* classes */
 .centre {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 46%;
 }
-
-/*   
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-  
-*/
