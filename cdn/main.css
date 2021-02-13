@@ -3,11 +3,12 @@
 
 /* elements */
 body {
-  background-color: #2a2b2c;
+  background-color: #2f3134;
 }
 
 h1 {
   font-family: 'Open+Sans';font-size: 22px;
+  color: #f5fbff;
 }
 
 /* classes */
