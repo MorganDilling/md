@@ -1,6 +1,12 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+/* animations */
+@keyframes main_in {
+  0% {left: -100vw;}
+  100% {left: 0vw;}
+}
+
 /* elements */
 body {
   background-color: #17181a;
@@ -22,5 +28,14 @@ h2 {
 .centre {
   margin: 0;
   position: absolute;
-  top: 43%;
+  top: calc(50vh - 6vh);
+}
+.main_title {
+  animation-name: main_in;
+  animation-duration: 3s;
+}
+.main_subtitle {
+  animation-name: main_in;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
