@@ -2,47 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 /* animations */
-@keyframes main_in {
-  0% {left: -100vw;}
-  100% {left: 0vw;}
-}
+@import './animations.css';
 
 /* elements */
-body {
-  background-color: #17181a;
-}
-
-h1 {
-  font-family: 'Open Sans';font-size: 30px;
-  color: #e8ecee;
-  font-weight: 400;
-}
-
-h2 {
-  font-family: 'Open Sans';font-size: 20px;
-  color: #e8ecee;
-  font-weight: 300;
-}
+@import './elements.css';
 
 /* classes */
-/* Centre things */
-@import "/css/centre.css";
+/* center */
+@import '/css/centre.css';
 
-.main_title {
-  animation-name: main_in;
-  animation-duration: 3s;
-}
-.main_subtitle {
-  animation-name: main_in;
-  animation-duration: 3s;
-  animation-delay: 1s;
-}
-
-.full {
-  position: fixed;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;  
-}
+/* other */
+@import '/css/other.css';
