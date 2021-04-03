@@ -1,0 +1,25 @@
+.centre-v {
+  margin: 0;
+  position: absolute;
+  top: 50vh;
+}
+
+.centre-h {
+  margin: 0;
+  position: absolute;
+  left: 50vw;
+}
+
+.centre-v:not(.centre-h) {
+  transform: translate(0,-50%);
+}
+
+.centre-h:not(.centre-v) {
+  transform: translate(-50%,0);
+}
+.centre-h.centre-v {
+  transform: translate(-50%,-50%);
+}
+.centre-text {
+  text-align: center;
+}
