@@ -1,0 +1,17 @@
+.main_title {
+	animation-name: main_in;
+	animation-duration: 3s;
+}
+.main_subtitle {
+	animation-name: main_in;
+	animation-duration: 3s;
+	animation-delay: 1s;
+}
+.full {
+	position: fixed;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
