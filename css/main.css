@@ -25,10 +25,16 @@ h2 {
 }
 
 /* classes */
-.centre {
+.centre-v {
   margin: 0;
   position: absolute;
   top: calc(50vh - 6vh);
+}
+
+.centre-v {
+  margin: 0;
+  position: absolute;
+  top: 50vw;
 }
 .main_title {
   animation-name: main_in;
