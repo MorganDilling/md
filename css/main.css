@@ -31,7 +31,7 @@ h2 {
   top: calc(50vh - 6vh);
 }
 
-.centre-v {
+.centre-h {
   margin: 0;
   position: absolute;
   top: 50vw;
