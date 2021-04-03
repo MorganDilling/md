@@ -47,6 +47,9 @@ h2 {
 .centre-h.centre-v {
   transform: translate(-50%,-50%);
 }
+.centre-text {
+  text-align: center;
+}
 
 .main_title {
   animation-name: main_in;
