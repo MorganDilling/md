@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="/favicon.ico" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Morgan Dilling - Counter</title>
+	<link rel="stylesheet" href="/css/main.css" />
+</head>
+<script>
+  let counter = 0;
+  const appendCounter = () => {
+   counter++
+   document.getElementById("p1").innerHTML = `You have clicked ${counter} times`
+  }
+</script>
+<body>
+	<div class="centre-v centre-h centre-text">
+		<h2 id="counter" class="main_title">You have cliked 0 times</h2>
+    <button type="button" onClick="appendCounter()">+1</button>
+	</div>
+</body>
+</html>
