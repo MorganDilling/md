@@ -9,10 +9,14 @@
 	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <script>
-  setInterval(clock, 1000)
+  let ms = 0
+  setInterval(clock, 1)
   function clock() {
     let d = new Date();
     let t = d.toLocaleTimeString();
+    if (ms > 99) ms = 0
+    ms = ms + 1
+    t = t + '.' + ms.toString()
     document.getElementById("clock").innerHTML = t;
   }
 </script>
