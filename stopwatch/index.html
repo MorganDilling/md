@@ -14,7 +14,7 @@
   const startTimer = () => {
    i = setInterval(
     timer++
-    document.getElementById("stopwatch").innerHTML = counter.toString() + " seconds"
+    document.getElementById("stopwatch").innerHTML = timer.toString() + " seconds"
    , 1000) 
   }
   const stopTimer = () => {
@@ -22,10 +22,10 @@
   }
 </script>
 <body>
-	<div class="centre-v centre-h centre-text">
-		<h2 id="stopwatch" class="main_title">0 seconds</h2>
-    <button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="startTimer()">Start</button>
-    <button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="stopTimer()">Stop</button>
+  <div class="centre-v centre-h centre-text">
+	<h2 id="stopwatch" class="main_title">0 seconds</h2>
+    	<button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="startTimer()">Start</button>
+    	<button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="stopTimer()">Stop</button>
   </div>
 </body>
 </html> 
