@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="/favicon.ico" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Morgan Dilling - Counter</title>
+	<link rel="stylesheet" href="/css/main.css" />
+</head>
+<script>
+  setInterval(clock, 1000)
+  function clock() {
+    let d = new Date();
+    let t = d.toLocaleTimeString();
+    document.getElementById("clock").innerHTML = t;
+  }
+</script>
+<body>
+	<div class="centre-v centre-h centre-text">
+		<h2 id="clock" class="main_title" style="font-size: 100px">00:00:00/h2>
+  </div>
+</body>
+</html>
