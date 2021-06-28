@@ -11,13 +11,13 @@
 <script>
   let timer = 0;
   let i;
-  const startTimer = () => {
+  function startTimer() {
 	document.getElementById("stopwatch").innerHTML = "starting"
 	i = setInterval(
 	    timer++
 	    document.getElementById("stopwatch").innerHTML = timer.toString() + " seconds"
 	   , 1000)
-  const stopTimer = () => {
+  function stopTimer() {
    clearInterval(i) 
   }
 </script>
