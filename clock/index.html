@@ -18,8 +18,8 @@
   function clock() {
     let d = new Date();
     let t = d.toLocaleTimeString();
-    if (ms == 99) ms = 0
     ms = ms + 1
+    if (ms > 99) ms = 0
     mst = bz(ms)
     t = t + '.' + mst
     document.getElementById("clock").innerHTML = t;
