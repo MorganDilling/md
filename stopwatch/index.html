@@ -12,14 +12,11 @@
   let timer = 0;
   let i;
   const startTimer = () => {
-   try {
+	document.getElementById("stopwatch").innerHTML = "starting"
 	i = setInterval(
 	    timer++
 	    document.getElementById("stopwatch").innerHTML = timer.toString() + " seconds"
 	   , 1000)
-  } catch (err) {
-	document.getElementById("stopwatch").innerHTML = err 
-  }
   const stopTimer = () => {
    clearInterval(i) 
   }
