@@ -10,6 +10,7 @@
 </head>
 <script>
   let ms = 0
+  let lastClock = ''
   setInterval(clock, 10)
   function bz(n) {
     if (n < 10) return "0" + n.toString()
@@ -19,7 +20,8 @@
     let d = new Date();
     let t = d.toLocaleTimeString();
     ms = ms + 1
-    if (ms > 99) ms = 0
+    if (ms > 99 || t != lastClock) ms = 0
+    lastClock = t
     mst = bz(ms)
     t = t + '.' + mst
     document.getElementById("clock").innerHTML = t;
