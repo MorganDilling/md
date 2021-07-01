@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <script>
-  const input = document.querySelector('input');
+  const input = document.getElementById('input');
   input.addEventListener('change', a)
   function a (e) {
 	  document.title = e.target.value;
@@ -22,7 +22,7 @@
 </script>
 <body>
 	<div class="centre-v centre-h centre-text">
-		<input placeholder="Counter" name="name"/>
+		<input id="input" placeholder="Counter" name="name"/>
 		<h2 id="counter" class="main_title">You have clicked 0 times</h2>
     		<button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="appendCounter()">+1</button>
 	</div>
