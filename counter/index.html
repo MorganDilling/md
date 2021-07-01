@@ -10,9 +10,10 @@
 </head>
 <script>
   const input = document.querySelector('input');
-  input.addEventListener('change', (e) => {
-	  document.title = 'Morgan Dilling - ' + e.target.value;
-  })
+  input.addEventListener('change', a)
+  function a (e) {
+	  document.title = e.target.value;
+  }
   let counter = 0;
   function appendCounter() {
    counter = counter + 1
