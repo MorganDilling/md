@@ -8,6 +8,13 @@
 	<title>Morgan Dilling - Counter</title>
 	<link rel="stylesheet" href="/css/main.css" />
 </head>
+<body>
+	<div class="centre-v centre-h centre-text">
+		<input id="input" placeholder="Counter" name="name"/>
+		<h2 id="counter" class="main_title">You have clicked 0 times</h2>
+    		<button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="appendCounter()">+1</button>
+	</div>
+</body>
 <script>
   document.title = 'test'
   const input = document.getElementById('input');
@@ -23,11 +30,4 @@
    document.getElementById("counter").innerHTML = "You have clicked " + counter.toString() + " times"
   }
 </script>
-<body>
-	<div class="centre-v centre-h centre-text">
-		<input id="input" placeholder="Counter" name="name"/>
-		<h2 id="counter" class="main_title">You have clicked 0 times</h2>
-    		<button style="background-color: #3399ff; border-radius: 25px; color: #ffffff; border: 2px solid currentcolor; font-size: 20px; padding: 10px 10px;" type="button" onClick="appendCounter()">+1</button>
-	</div>
-</body>
 </html>
