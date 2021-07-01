@@ -11,11 +11,12 @@
 <script>
   document.title = 'test'
   const input = document.getElementById('input');
+  document.title = 'test2'
   input.addEventListener('change', a)
   function a (e) {
 	  document.title = e.target.value;
   }
-  document.title = 'test2'
+  document.title = 'test3'
   let counter = 0;
   function appendCounter() {
    counter = counter + 1
